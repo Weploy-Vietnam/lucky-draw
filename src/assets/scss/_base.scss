@@ -39,6 +39,18 @@ body {
   }
 }
 
+.theme-main-weploy-green {
+  background: linear-gradient(
+    240deg,
+    $color-main-weploy-green-1 0.13%,
+    $color-main-weploy-green-1 26.19%,
+    $color-main-weploy-green-1 52.6%,
+    $color-main-weploy-green-1 79.08%,
+    $color-main-weploy-green-1 100%
+  );
+  color: $color-text-light;
+}
+
 .theme--red {
   background: linear-gradient(
     240deg,

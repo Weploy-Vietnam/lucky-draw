@@ -10,7 +10,7 @@ include ../mixins/icons
   canvas#confetti-canvas.confetti
 
   #lucky-draw
-    img.title(src="~@images/title.svg" alt="Lucky Draw")
+    img.title(src="~@images/weploy-white-logo.svg" alt="Lucky Draw")
 
     .slot
       .slot__outer
@@ -21,7 +21,7 @@ include ../mixins/icons
       #sunburst.sunburst
         img(src="~@images/sunburst.svg" alt="sunburst")
 
-    button#draw-button.solid-button Draw
+    button#draw-button.solid-button Rút thăm
 
   #settings.settings
     #settings-panel.settings__panel
@@ -40,7 +40,7 @@ include ../mixins/icons
         div.input-group.input-group--2-column
           label.input-label(for="enable-sound") Enable sound effect
           label.input--switch
-            input(type="checkbox" checked="true" id="enable-sound")
+            input(type="checkbox" checked="false" id="enable-sound")
             span.slider
       div.settings__panel__group
         button#settings-save.solid-button.solid-button Save

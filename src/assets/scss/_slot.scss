@@ -90,11 +90,11 @@
 
   > div {
     height: $reel-item-height;
-    font-size: 3.75rem;
+    font-size: 4rem;
     font-weight: bold;
     text-align: center;
     line-height: $reel-item-height;
-    color: $color-slot-text;
+    color: #183f38;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -180,6 +180,11 @@
 
 .theme--red .settings__panel {
   background-color: $color-settings-background-red;
+  color: $color-text-light;
+}
+
+.theme-main-weploy-green .settings__panel {
+  background-color: $color-weploy-settings-background-green;
   color: $color-text-light;
 }
 
